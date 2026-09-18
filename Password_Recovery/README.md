@@ -1,56 +1,41 @@
-DHCP Configuration Lab – Cisco Packet Tracer
+Cisco Router Password Recovery Lab
 
 📌 Overview
 
-This lab demonstrates the configuration and verification of Dynamic Host Configuration Protocol (DHCP) on a Cisco router using Cisco Packet Tracer.
+This lab demonstrates the basic password recovery process on a Cisco router using Cisco Packet Tracer.
 
 🎯 Objectives
 
-- Configure a Cisco router as a DHCP server
-- Create a DHCP address pool
-- Configure the default gateway and DNS server
-- Exclude reserved IP addresses
-- Verify dynamically assigned IP addresses
-- Test network connectivity
+- Understand the Cisco router password recovery process
+- Access ROMMON mode
+- Modify the configuration register
+- Recover access to the router
+- Restore the original configuration
+- Verify the router configuration after recovery
 
 🛠️ Tools Used
 
 - Cisco Packet Tracer
 - Cisco IOS CLI
-- DHCP
-- IPv4
-
-⚙️ Configuration
-
-Example DHCP configuration:
-
-ip dhcp excluded-address <start-IP> <end-IP>
-
-ip dhcp pool LAN
-network <network-address> <subnet-mask>
-default-router <gateway-IP>
-dns-server <DNS-IP>
-
-🔍 Verification Commands
-
-show ip dhcp binding
-show ip dhcp pool
-show ip dhcp conflict
-show running-config
 
 📚 Key Concepts Practiced
 
-- DHCP Server
-- DHCP Address Pool
-- IP Address Allocation
-- Default Gateway
-- DNS Server
-- DHCP Excluded Addresses
-- DHCP Lease Verification
+- ROMMON Mode
+- Configuration Register
+- Startup Configuration
+- Running Configuration
+- Password Recovery
+- Router Boot Process
+
+🔍 Verification Commands
+
+show version
+show running-config
+show startup-config
 
 ✅ Result
 
-Successfully configured a Cisco router as a DHCP server and verified dynamic IP address allocation to network devices.
+Successfully practiced the Cisco router password recovery process and verified the router configuration after recovery.
 
 📁 Lab File
 
